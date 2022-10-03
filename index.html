@@ -1,0 +1,69 @@
+<html>
+    <head>
+        <link rel="icon" href="pmbok.png">
+        <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1">
+        <title>ホームカミングデー脱出</title>
+        <style>
+            body {
+              text-align: center;
+            }
+
+            button {
+              font-size: 32px;
+              margin: 1%;
+              padding: 10px 25px;
+              margin-bottom: 40px;
+              font-size: 24px;
+              text-align: center;
+              cursor: pointer;
+              outline: none;
+              color: white;
+              background-color: #008080;
+              border: none;
+              border-radius: 7px;
+              box-shadow: 0 5px #00cdcd;
+              text-decoration: none;
+              width: 30%;
+            }
+
+            button:hover {background-color: #009a9a;}
+            
+            button:active {
+              background-color: #008080;
+              box-shadow: 0 3px #004d4d;
+              transform: translateY(1px);
+            }
+            
+            html {scroll-behavior: smooth;}
+
+            input {
+              width: 90%;
+              height: 25px;
+              display: inline-block;
+              border: 1px solid #ccc;
+              box-sizing: border-box;
+            }
+        </style>
+    </head>
+
+    <body>
+        <form action="login.php" method="post">
+            <h1>Q1</h1>
+            <h3>下の浜松キャンパスの住所の○は何？</h3>
+            <h3>数字で答えてね</h3><br>
+            <h3>浜松市中区城北3-5-○</h3><br>
+            <input type="number" name="q1" placeholder="回答を入力" required oninvalid="alert('Q1が未回答です')"/><br>
+            <center><a href="#q2">次に進む</a></center><br>
+            <br style="line-height:1000px;">
+            <div id="q2">
+                <h1>Q2</h1>
+                <h3>スラングのw8は何の英単語のこと？</h3>
+                <h3>アルファベット小文字で答えてね</h3><br>
+                <input name="q2" placeholder="回答を入力" required oninvalid="alert('Q2が未回答です');"/><br>
+                <!--<center><a href="#btn"/>Q2 & go to button</center><br>-->
+                <button class="button" type="submit"/>結果発表  
+            </div>
+            <br style="line-height:1000px;">
+        </form>  
+    </body>
+</html>
