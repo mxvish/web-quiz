@@ -1,7 +1,9 @@
 # web-quiz
-quiz website using xampp
+quiz website using XAMPP
 
 # Usage
+0. Download [XAMPP](https://www.apachefriends.org/download.html)
+
 1. Move all files to under 
 
 - Windows
@@ -12,7 +14,7 @@ quiz website using xampp
 
   (Creating new directory is recommended.)
 
-2. Start both Apache and MySQL in xampp.
+2. Start both Apache and MySQL in XAMPP.
 
 3. Open [localhost](http://localhost)
 
