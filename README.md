@@ -16,6 +16,11 @@ quiz website using XAMPP
 
 2. Start both Apache and MySQL in XAMPP.
 
+- Linux
+  ```sh
+  sudo /opt/lampp/manager-linux-x64.run 
+  ```
+
 3. Open [localhost](http://localhost)
 
 - If you made new directory named `newdirectory` under `htdocs` , url would be [http://localhost/newdirectory](http://localhost/newdirectory)
