@@ -16,6 +16,11 @@ quiz website using XAMPP
 
 2. Start both Apache and MySQL in XAMPP.
 
+- macOS(Only starts apache)
+  ```sh
+  sudo apachectl start
+  ```
+
 - Linux
   ```sh
   sudo /opt/lampp/manager-linux-x64.run 
