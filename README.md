@@ -7,10 +7,16 @@ quiz website using XAMPP
 1. Move all files to under 
 
 - Windows
-`C:\xampp\htdocs` directory.
+
+  `C:\xampp\htdocs` directory.
 
 - Linux
-`/opt/lampp/htdocs` directory.
+
+  `/opt/lampp/htdocs` directory.
+
+- macOS(For apache)
+
+  `/Library/WebServer/Documents ` directory.
 
   (Creating new directory is recommended.)
 
